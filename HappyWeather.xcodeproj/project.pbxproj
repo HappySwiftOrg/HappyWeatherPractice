@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80E061C1CEDAE04004C42C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E061B1CEDAE04004C42C4 /* AppDelegate.swift */; };
+		D80E061E1CEDAE04004C42C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E061D1CEDAE04004C42C4 /* ViewController.swift */; };
+		D80E06211CEDAE04004C42C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80E061F1CEDAE04004C42C4 /* Main.storyboard */; };
+		D80E06241CEDAE04004C42C4 /* HappyWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D80E06221CEDAE04004C42C4 /* HappyWeather.xcdatamodeld */; };
+		D80E06261CEDAE04004C42C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80E06251CEDAE04004C42C4 /* Assets.xcassets */; };
+		D80E06291CEDAE04004C42C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80E06271CEDAE04004C42C4 /* LaunchScreen.storyboard */; };
+		D80E06341CEDAE04004C42C4 /* HappyWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E06331CEDAE04004C42C4 /* HappyWeatherTests.swift */; };
+		D80E063F1CEDAE04004C42C4 /* HappyWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E063E1CEDAE04004C42C4 /* HappyWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80E06301CEDAE04004C42C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80E06101CEDAE04004C42C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80E06171CEDAE04004C42C4;
+			remoteInfo = HappyWeather;
+		};
+		D80E063B1CEDAE04004C42C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80E06101CEDAE04004C42C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80E06171CEDAE04004C42C4;
+			remoteInfo = HappyWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D80E06181CEDAE04004C42C4 /* HappyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80E061B1CEDAE04004C42C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80E061D1CEDAE04004C42C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80E06201CEDAE04004C42C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80E06231CEDAE04004C42C4 /* HappyWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyWeather.xcdatamodel; sourceTree = "<group>"; };
+		D80E06251CEDAE04004C42C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80E06281CEDAE04004C42C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80E062A1CEDAE04004C42C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80E062F1CEDAE04004C42C4 /* HappyWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80E06331CEDAE04004C42C4 /* HappyWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyWeatherTests.swift; sourceTree = "<group>"; };
+		D80E06351CEDAE04004C42C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80E063A1CEDAE04004C42C4 /* HappyWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80E063E1CEDAE04004C42C4 /* HappyWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyWeatherUITests.swift; sourceTree = "<group>"; };
+		D80E06401CEDAE04004C42C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80E06151CEDAE04004C42C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80E062C1CEDAE04004C42C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80E06371CEDAE04004C42C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80E060F1CEDAE04004C42C4 = {
+			isa = PBXGroup;
+			children = (
+				D80E061A1CEDAE04004C42C4 /* HappyWeather */,
+				D80E06321CEDAE04004C42C4 /* HappyWeatherTests */,
+				D80E063D1CEDAE04004C42C4 /* HappyWeatherUITests */,
+				D80E06191CEDAE04004C42C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80E06191CEDAE04004C42C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80E06181CEDAE04004C42C4 /* HappyWeather.app */,
+				D80E062F1CEDAE04004C42C4 /* HappyWeatherTests.xctest */,
+				D80E063A1CEDAE04004C42C4 /* HappyWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80E061A1CEDAE04004C42C4 /* HappyWeather */ = {
+			isa = PBXGroup;
+			children = (
+				D80E061B1CEDAE04004C42C4 /* AppDelegate.swift */,
+				D80E061D1CEDAE04004C42C4 /* ViewController.swift */,
+				D80E061F1CEDAE04004C42C4 /* Main.storyboard */,
+				D80E06251CEDAE04004C42C4 /* Assets.xcassets */,
+				D80E06271CEDAE04004C42C4 /* LaunchScreen.storyboard */,
+				D80E062A1CEDAE04004C42C4 /* Info.plist */,
+				D80E06221CEDAE04004C42C4 /* HappyWeather.xcdatamodeld */,
+			);
+			path = HappyWeather;
+			sourceTree = "<group>";
+		};
+		D80E06321CEDAE04004C42C4 /* HappyWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80E06331CEDAE04004C42C4 /* HappyWeatherTests.swift */,
+				D80E06351CEDAE04004C42C4 /* Info.plist */,
+			);
+			path = HappyWeatherTests;
+			sourceTree = "<group>";
+		};
+		D80E063D1CEDAE04004C42C4 /* HappyWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80E063E1CEDAE04004C42C4 /* HappyWeatherUITests.swift */,
+				D80E06401CEDAE04004C42C4 /* Info.plist */,
+			);
+			path = HappyWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80E06171CEDAE04004C42C4 /* HappyWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80E06431CEDAE04004C42C4 /* Build configuration list for PBXNativeTarget "HappyWeather" */;
+			buildPhases = (
+				D80E06141CEDAE04004C42C4 /* Sources */,
+				D80E06151CEDAE04004C42C4 /* Frameworks */,
+				D80E06161CEDAE04004C42C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyWeather;
+			productName = HappyWeather;
+			productReference = D80E06181CEDAE04004C42C4 /* HappyWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80E062E1CEDAE04004C42C4 /* HappyWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80E06461CEDAE04004C42C4 /* Build configuration list for PBXNativeTarget "HappyWeatherTests" */;
+			buildPhases = (
+				D80E062B1CEDAE04004C42C4 /* Sources */,
+				D80E062C1CEDAE04004C42C4 /* Frameworks */,
+				D80E062D1CEDAE04004C42C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80E06311CEDAE04004C42C4 /* PBXTargetDependency */,
+			);
+			name = HappyWeatherTests;
+			productName = HappyWeatherTests;
+			productReference = D80E062F1CEDAE04004C42C4 /* HappyWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80E06391CEDAE04004C42C4 /* HappyWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80E06491CEDAE04004C42C4 /* Build configuration list for PBXNativeTarget "HappyWeatherUITests" */;
+			buildPhases = (
+				D80E06361CEDAE04004C42C4 /* Sources */,
+				D80E06371CEDAE04004C42C4 /* Frameworks */,
+				D80E06381CEDAE04004C42C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80E063C1CEDAE04004C42C4 /* PBXTargetDependency */,
+			);
+			name = HappyWeatherUITests;
+			productName = HappyWeatherUITests;
+			productReference = D80E063A1CEDAE04004C42C4 /* HappyWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80E06101CEDAE04004C42C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HappySwiftOrg;
+				TargetAttributes = {
+					D80E06171CEDAE04004C42C4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D80E062E1CEDAE04004C42C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D80E06171CEDAE04004C42C4;
+					};
+					D80E06391CEDAE04004C42C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D80E06171CEDAE04004C42C4;
+					};
+				};
+			};
+			buildConfigurationList = D80E06131CEDAE04004C42C4 /* Build configuration list for PBXProject "HappyWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80E060F1CEDAE04004C42C4;
+			productRefGroup = D80E06191CEDAE04004C42C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80E06171CEDAE04004C42C4 /* HappyWeather */,
+				D80E062E1CEDAE04004C42C4 /* HappyWeatherTests */,
+				D80E06391CEDAE04004C42C4 /* HappyWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80E06161CEDAE04004C42C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80E06291CEDAE04004C42C4 /* LaunchScreen.storyboard in Resources */,
+				D80E06261CEDAE04004C42C4 /* Assets.xcassets in Resources */,
+				D80E06211CEDAE04004C42C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80E062D1CEDAE04004C42C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80E06381CEDAE04004C42C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80E06141CEDAE04004C42C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80E06241CEDAE04004C42C4 /* HappyWeather.xcdatamodeld in Sources */,
+				D80E061E1CEDAE04004C42C4 /* ViewController.swift in Sources */,
+				D80E061C1CEDAE04004C42C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80E062B1CEDAE04004C42C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80E06341CEDAE04004C42C4 /* HappyWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80E06361CEDAE04004C42C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80E063F1CEDAE04004C42C4 /* HappyWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80E06311CEDAE04004C42C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80E06171CEDAE04004C42C4 /* HappyWeather */;
+			targetProxy = D80E06301CEDAE04004C42C4 /* PBXContainerItemProxy */;
+		};
+		D80E063C1CEDAE04004C42C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80E06171CEDAE04004C42C4 /* HappyWeather */;
+			targetProxy = D80E063B1CEDAE04004C42C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80E061F1CEDAE04004C42C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80E06201CEDAE04004C42C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80E06271CEDAE04004C42C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80E06281CEDAE04004C42C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80E06411CEDAE04004C42C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80E06421CEDAE04004C42C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80E06441CEDAE04004C42C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HappySwiftOrg.HappyWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D80E06451CEDAE04004C42C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HappySwiftOrg.HappyWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D80E06471CEDAE04004C42C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HappySwiftOrg.HappyWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyWeather.app/HappyWeather";
+			};
+			name = Debug;
+		};
+		D80E06481CEDAE04004C42C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HappySwiftOrg.HappyWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyWeather.app/HappyWeather";
+			};
+			name = Release;
+		};
+		D80E064A1CEDAE04004C42C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappyWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HappySwiftOrg.HappyWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappyWeather;
+			};
+			name = Debug;
+		};
+		D80E064B1CEDAE04004C42C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappyWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HappySwiftOrg.HappyWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappyWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80E06131CEDAE04004C42C4 /* Build configuration list for PBXProject "HappyWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80E06411CEDAE04004C42C4 /* Debug */,
+				D80E06421CEDAE04004C42C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80E06431CEDAE04004C42C4 /* Build configuration list for PBXNativeTarget "HappyWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80E06441CEDAE04004C42C4 /* Debug */,
+				D80E06451CEDAE04004C42C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D80E06461CEDAE04004C42C4 /* Build configuration list for PBXNativeTarget "HappyWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80E06471CEDAE04004C42C4 /* Debug */,
+				D80E06481CEDAE04004C42C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D80E06491CEDAE04004C42C4 /* Build configuration list for PBXNativeTarget "HappyWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80E064A1CEDAE04004C42C4 /* Debug */,
+				D80E064B1CEDAE04004C42C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D80E06221CEDAE04004C42C4 /* HappyWeather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D80E06231CEDAE04004C42C4 /* HappyWeather.xcdatamodel */,
+			);
+			currentVersion = D80E06231CEDAE04004C42C4 /* HappyWeather.xcdatamodel */;
+			path = HappyWeather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D80E06101CEDAE04004C42C4 /* Project object */;
+}
